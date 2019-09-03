@@ -33,9 +33,9 @@ class LoggedOut extends Component {
         </View>
 
         <View style={styles.OptionContainer}>
-          <Button mode="text" style={styles.option}>
+          <Text mode="text" style={styles.option}>
             More options:
-          </Button>
+          </Text>
           <Text style={styles.optionDetail}>
             By tapping Continue,Create Account or More options,I agree to
             AirBnb's Terms of service ,Payement Terms of service ,Privacy Policy
