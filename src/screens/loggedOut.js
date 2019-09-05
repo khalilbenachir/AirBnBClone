@@ -6,7 +6,7 @@ import Icon from 'react-native-vector-icons/dist/FontAwesome';
 
 class LoggedOut extends Component {
   componentDidMount() {
-    Icon.loadFont();
+    Icon.loadFont({});
   }
   render() {
     return (
